@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  * Flare Main Stylesheet
  * Template Ver. 1.0.0
  * 03-19-2020
@@ -27,7 +27,7 @@
  *      ## block grids - mobile devices
  *      ## block grids - small mobile devices <= 400px
  * # MISC
- * # custom grid, block grid STACK breakpoints 
+ * # custom grid, block grid STACK breakpoints
  * # base style overrides
  *      ## links
  * # typography & general theme styles
@@ -37,7 +37,7 @@
  *      ## tables
  *      ## spacing
  * # preloader
- * # forms 
+ * # forms
  *      ## style placeholder text
  *      ## change autocomplete styles in Chrome
  * # buttons
@@ -46,8 +46,8 @@
  *      ## skillbars
  *      ## alert box
  * # common and reusable styles
- *      ## item list 
- *      ## slick slider 
+ *      ## item list
+ *      ## slick slider
  * # site header
  *      ## header logo
  *      ## main navigation
@@ -84,7 +84,7 @@
  *
  * ------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## fonts
  * ------------------------------------------------------------------- */
 
@@ -100,7 +100,7 @@
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## colors
  * ------------------------------------------------------------------- */
 :root {
@@ -109,14 +109,14 @@
      * color-2(#eb5e55)
      * color-3(#f2d0a4)
      */
-    --color-1: hsla(345, 93%, 44%, 1);
+    --color-1: #065cc9;
     --color-2: hsla(4, 79%, 63%, 1);
     --color-3: hsla(34, 75%, 80%, 1);
 
     /* theme color variations
      */
     --color-1-lighter: hsla(345, 93%, 64%, 1);
-    --color-1-light  : hsla(345, 93%, 54%, 1);
+    --color-1-light  : #065cc9;
     --color-1-dark   : hsla(345, 93%, 34%, 1);
     --color-1-darker : hsla(345, 93%, 24%, 1);
     --color-2-lighter: hsla(4, 79%, 83%, 1);
@@ -125,7 +125,7 @@
     --color-2-darker : hsla(4, 79%, 43%, 1);
 
     /* feedback colors
-     * color-error(#ffd1d2), color-success(#c8e675), 
+     * color-error(#ffd1d2), color-success(#c8e675),
      * color-info(#d7ecfb), color-notice(#fff099)
      */
     --color-error          : hsla(359, 100%, 91%, 1);
@@ -137,9 +137,9 @@
     --color-info-content   : hsla(205, 32%, 31%, 1);
     --color-notice-content : hsla(51, 30%, 30%, 1);
 
-    /* shades 
-     * generated using 
-     * Tint & Shade Generator 
+    /* shades
+     * generated using
+     * Tint & Shade Generator
      * (https://maketintsandshades.com/)
      */
     --color-black  : #000000;
@@ -194,20 +194,20 @@
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## vertical spacing and typescale
  * ------------------------------------------------------------------- */
 :root {
 
     /* spacing
-     * base font size: 18px 
+     * base font size: 18px
      * vertical space unit : 32px
      */
     --base-size     : 62.5%;
     --base-font-size: 1.8rem;
     --space         : 3.2rem;
 
-    /* vertical spacing 
+    /* vertical spacing
      */
     --vspace-0_25: calc(0.25 * var(--space));
     --vspace-0_5 : calc(0.5 * var(--space));
@@ -268,7 +268,7 @@
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## grid variables
  * ------------------------------------------------------------------- */
 :root {
@@ -300,7 +300,7 @@
  *
  * -------------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## document
  * ------------------------------------------------------------------- */
 
@@ -314,7 +314,7 @@ html {
     /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## sections
  * ------------------------------------------------------------------- */
 
@@ -338,7 +338,7 @@ h1 {
     margin: 0.67em 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## grouping
  * ------------------------------------------------------------------- */
 
@@ -365,7 +365,7 @@ pre {
     /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## text-level semantics
  * ------------------------------------------------------------------- */
 
@@ -428,7 +428,7 @@ sup {
     top: -0.5em;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## embedded content
  * ------------------------------------------------------------------- */
 
@@ -438,7 +438,7 @@ img {
     border-style: none;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## forms
  * ------------------------------------------------------------------- */
 
@@ -573,7 +573,7 @@ textarea {
     /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## interactive
  * ------------------------------------------------------------------- */
 
@@ -589,7 +589,7 @@ summary {
     display: list-item;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## misc
  * ------------------------------------------------------------------- */
 
@@ -634,7 +634,7 @@ body {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## media
  * ------------------------------------------------------------------- */
 svg, img, video embed, iframe, object {
@@ -643,7 +643,7 @@ svg, img, video embed, iframe, object {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## typography resets
  * ------------------------------------------------------------------- */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
@@ -680,7 +680,7 @@ li {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
 a {
@@ -693,7 +693,7 @@ a img {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## inputs
  * ------------------------------------------------------------------- */
 fieldset {
@@ -701,13 +701,13 @@ fieldset {
     padding: 0;
 }
 
-input[type="email"], 
-input[type="number"], 
-input[type="search"], 
-input[type="text"], 
-input[type="tel"], 
-input[type="url"], 
-input[type="password"], 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
 textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -720,9 +720,9 @@ textarea {
  * # Grid v3.0.0
  *
  *   -----------------------------------------------------------------
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
+ * - Grid breakpoints are based on MAXIMUM WIDTH media queries,
  *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- * - Grid columns without a specified width will automatically layout 
+ * - Grid columns without a specified width will automatically layout
  *   as equal width columns.
  * ------------------------------------------------------------------- */
 
@@ -879,7 +879,7 @@ textarea {
     align-self: flex-end;
 }
 
-/* large screen column widths 
+/* large screen column widths
  */
 .large-1 {
     -ms-flex: 0 0 8.33333%;
@@ -966,7 +966,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## medium screen devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
@@ -1052,7 +1052,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tablets
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
@@ -1137,7 +1137,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## mobile devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
@@ -1232,7 +1232,7 @@ textarea {
     }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## small mobile devices <= 400px
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
@@ -1309,7 +1309,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## block grids - medium screen devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
@@ -1358,7 +1358,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## block grids - tablets
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
@@ -1407,7 +1407,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## block grids - mobile devices
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
@@ -1456,7 +1456,7 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## block grids - small mobile devices <= 400px
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 400px) {
@@ -1535,7 +1535,7 @@ textarea {
 
 
 /* ===================================================================
- * # custom grid, block grid STACK breakpoints 
+ * # custom grid, block grid STACK breakpoints
  *
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
@@ -1582,7 +1582,7 @@ body {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
 a {
@@ -1603,7 +1603,7 @@ a:hover, a:active {
 
 /* ===================================================================
  * # typography & general theme styles
- * 
+ *
  * ------------------------------------------------------------------- */
 
 /* type scale - ratio 1:2 | base: 18px
@@ -1865,7 +1865,7 @@ hr.fancy::before {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## lists
  * ------------------------------------------------------------------- */
 ol {
@@ -1917,7 +1917,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## responsive video container
  * ------------------------------------------------------------------- */
 .video-container {
@@ -1927,9 +1927,9 @@ dd {
     overflow: hidden;
 }
 
-.video-container iframe, 
-.video-container object, 
-.video-container embed, 
+.video-container iframe,
+.video-container object,
+.video-container embed,
 .video-container video {
     position: absolute;
     top: 0;
@@ -1939,7 +1939,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## floated image
  * ------------------------------------------------------------------- */
 img.h-pull-right {
@@ -1951,7 +1951,7 @@ img.h-pull-left {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tables
  * ------------------------------------------------------------------- */
 table {
@@ -1975,7 +1975,7 @@ th {
     font-weight: 600;
 }
 
-th:first-child, 
+th:first-child,
 td:first-child {
     padding-left: 0;
 }
@@ -1990,27 +1990,27 @@ th:last-child, td:last-child {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## spacing
  * ------------------------------------------------------------------- */
-img, 
-p, 
-pre, 
-table, 
-blockquote, 
-figure, 
-figcaption, 
-ul, 
+img,
+p,
+pre,
+table,
+blockquote,
+figure,
+figcaption,
+ul,
 ol,
-dl, 
-form, 
-fieldset, 
-input, 
-textarea, 
-select, 
-button, 
-.btn, 
-.video-container, 
+dl,
+form,
+fieldset,
+input,
+textarea,
+select,
+button,
+.btn,
+.video-container,
 .ss-custom-select {
     margin-bottom: var(--vspace-1);
 }
@@ -2204,7 +2204,7 @@ button,
 
 
 /* ===================================================================
- * # forms 
+ * # forms
  *
  * ------------------------------------------------------------------- */
 fieldset {
@@ -2212,14 +2212,14 @@ fieldset {
     margin-bottom: var(--vspace-0_5);
 }
 
-input[type="email"], 
-input[type="number"], 
-input[type="search"], 
-input[type="text"], 
-input[type="tel"], 
-input[type="url"], 
-input[type="password"], 
-textarea, 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
 select {
     --input-height: var(--vspace-2);
     --input-line-height: var(--vspace-1);
@@ -2290,14 +2290,14 @@ textarea {
     min-height: calc(8 * var(--space));
 }
 
-input[type="email"]:focus, 
-input[type="number"]:focus, 
-input[type="search"]:focus, 
-input[type="text"]:focus, 
-input[type="tel"]:focus, 
-input[type="url"]:focus, 
-input[type="password"]:focus, 
-textarea:focus, 
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
 select:focus {
     color: white;
     -webkit-box-shadow: 0 0 8px var(--color-gray-15);
@@ -2315,7 +2315,7 @@ label, legend {
     display: block;
 }
 
-input[type="checkbox"], 
+input[type="checkbox"],
 input[type="radio"] {
     display: inline;
 }
@@ -2327,7 +2327,7 @@ label>.label-text {
     line-height: inherit;
 }
 
-label>input[type="checkbox"], 
+label>input[type="checkbox"],
 label>input[type="radio"] {
     margin: 0;
     position: relative;
@@ -2335,7 +2335,7 @@ label>input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
@@ -2359,7 +2359,7 @@ label>input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## change autocomplete styles in Chrome
  * ------------------------------------------------------------------- */
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
@@ -2374,10 +2374,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
  * # buttons
  *
  * ------------------------------------------------------------------- */
-.btn, 
-button, 
-input[type="submit"], 
-input[type="reset"], 
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
 input[type="button"] {
     --btn-height: var(--vspace-btn);
 
@@ -2404,15 +2404,15 @@ input[type="button"] {
     border: 0.2rem solid var(--color-btn);
 }
 
-.btn:hover, 
-button:hover, 
-input[type="submit"]:hover, 
-input[type="reset"]:hover, 
-input[type="button"]:hover, 
-.btn:focus, 
-button:focus, 
-input[type="submit"]:focus, 
-input[type="reset"]:focus, 
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
 input[type="button"]:focus {
     background-color: var(--color-btn-hover);
     border-color: var(--color-btn-hover);
@@ -2422,25 +2422,25 @@ input[type="button"]:focus {
 
 /* button primary
  * ------------------------------------------------- */
-.btn.btn--primary, 
-button.btn--primary, 
-input[type="submit"].btn--primary, 
-input[type="reset"].btn--primary, 
+.btn.btn--primary,
+button.btn--primary,
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
     background: var(--color-btn-primary);
     border-color: var(--color-btn-primary);
     color: var(--color-btn-primary-text);
 }
 
-.btn.btn--primary:hover, 
-button.btn--primary:hover, 
-input[type="submit"].btn--primary:hover, 
-input[type="reset"].btn--primary:hover, 
-input[type="button"].btn--primary:hover, 
-.btn.btn--primary:focus, 
-button.btn--primary:focus, 
-input[type="submit"].btn--primary:focus, 
-input[type="reset"].btn--primary:focus, 
+.btn.btn--primary:hover,
+button.btn--primary:hover,
+input[type="submit"].btn--primary:hover,
+input[type="reset"].btn--primary:hover,
+input[type="button"].btn--primary:hover,
+.btn.btn--primary:focus,
+button.btn--primary:focus,
+input[type="submit"].btn--primary:focus,
+input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
     background: var(--color-btn-primary-hover);
     border-color: var(--color-btn-primary-hover);
@@ -2449,50 +2449,50 @@ input[type="button"].btn--primary:focus {
 
 /* button modifiers
  * ------------------------------------------------- */
-.btn.h-full-width, 
+.btn.h-full-width,
 button.h-full-width {
     width: 100%;
     margin-right: 0;
 }
 
-.btn--small, 
+.btn--small,
 button.btn--small {
     font-size: 1.2rem;
     --btn-height: calc(var(--vspace-btn) - var(--vspace-0_5));
 }
 
-.btn--medium, 
+.btn--medium,
 button.btn--medium {
     --btn-height: calc(var(--vspace-btn) + var(--vspace-0_25));
 }
 
-.btn--large, 
+.btn--large,
 button.btn--large {
     --btn-height: calc(var(--vspace-btn) + var(--vspace-0_5));
 }
 
-.btn--stroke, 
+.btn--stroke,
 button.btn--stroke {
     background: transparent !important;
     border: 0.2rem solid var(--color-btn-stroke);
     color: var(--color-btn-stroke-text);
 }
 
-.btn--stroke:hover, 
+.btn--stroke:hover,
 button.btn--stroke:hover {
     background: var(--color-btn-stroke-hover) !important;
     border: 0.2rem solid var(--color-btn-stroke-hover);
     color: var(--color-btn-stroke-hover-text);
 }
 
-.btn--pill, 
+.btn--pill,
 button.btn--pill {
     padding-left: 3.2rem !important;
     padding-right: 3.2rem !important;
     border-radius: 1000px !important;
 }
 
-button::-moz-focus-inner, 
+button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
     padding: 0;
@@ -2500,12 +2500,12 @@ input::-moz-focus-inner {
 
 
 
-/* =================================================================== 
+/* ===================================================================
  * # additional components
  *
  * ------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## additional typo styles
  * ------------------------------------------------------------------- */
 .drop-cap:first-letter {
@@ -2520,7 +2520,7 @@ input::-moz-focus-inner {
     color: var(--color-text-dark);
 }
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 .lining dt, .lining dd {
     display: inline;
@@ -2545,7 +2545,7 @@ input::-moz-focus-inner {
     margin-left: -0.2em;
 }
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 .dictionary-style dt {
     display: inline;
@@ -2566,7 +2566,7 @@ input::-moz-focus-inner {
     content: counter(definitions, decimal) ". ";
 }
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -2614,7 +2614,7 @@ input::-moz-focus-inner {
     left: 50%;
 }
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -2670,7 +2670,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## skillbars
  * ------------------------------------------------------------------- */
 .skill-bars {
@@ -2794,7 +2794,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## alert box
  * ------------------------------------------------------------------- */
 .alert-box {
@@ -2818,7 +2818,7 @@ input::-moz-focus-inner {
     height: 12px;
 }
 
-.alert-box__close::before, 
+.alert-box__close::before,
 .alert-box__close::after {
     content: '';
     position: absolute;
@@ -2844,7 +2844,7 @@ input::-moz-focus-inner {
     color: var(--color-error-content);
 }
 
-.alert-box--error .alert-box__close::before, 
+.alert-box--error .alert-box__close::before,
 .alert-box--error .alert-box__close::after {
     background-color: var(--color-error-content);
 }
@@ -2854,7 +2854,7 @@ input::-moz-focus-inner {
     color: var(--color-success-content);
 }
 
-.alert-box--success .alert-box__close::before, 
+.alert-box--success .alert-box__close::before,
 .alert-box--success .alert-box__close::after {
     background-color: var(--color-success-content);
 }
@@ -2864,7 +2864,7 @@ input::-moz-focus-inner {
     color: var(--color-info-content);
 }
 
-.alert-box--info .alert-box__close::before, 
+.alert-box--info .alert-box__close::before,
 .alert-box--info .alert-box__close::after {
     background-color: var(--color-info-content);
 }
@@ -2874,7 +2874,7 @@ input::-moz-focus-inner {
     color: var(--color-notice-content);
 }
 
-.alert-box--notice .alert-box__close::before, 
+.alert-box--notice .alert-box__close::before,
 .alert-box--notice .alert-box__close::after {
     background-color: var(--color-notice-content);
 }
@@ -2942,8 +2942,8 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## item list 
+/* -------------------------------------------------------------------
+ * ## item list
  * ------------------------------------------------------------------- */
 .item-list {
     margin-top: var(--vspace-2_5);
@@ -2954,8 +2954,8 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## slick slider 
+/* -------------------------------------------------------------------
+ * ## slick slider
  * ------------------------------------------------------------------- */
 .slick-slider .slick-slide {
     outline: none;
@@ -2998,18 +2998,18 @@ input::-moz-focus-inner {
     color: transparent;
 }
 
-.slick-slider .slick-dots li button:hover, 
+.slick-slider .slick-dots li button:hover,
 .slick-slider .slick-dots li button:focus {
     outline: none;
 }
 
-.slick-slider .slick-dots li.slick-active button, 
+.slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
     background: var(--color-1);
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * common and reusable styles
  * ------------------------------------------------------------------- */
@@ -3174,7 +3174,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## mobile menu toggle
  * ------------------------------------------------------------------- */
 .s-header__menu-toggle {
@@ -3196,7 +3196,7 @@ input::-moz-focus-inner {
     top: 1.6rem;
 }
 
-.s-header__menu-toggle:hover, 
+.s-header__menu-toggle:hover,
 .s-header__menu-toggle:focus {
     color: white;
 }
@@ -3219,7 +3219,7 @@ input::-moz-focus-inner {
     bottom: auto;
 }
 
-.s-header__menu-toggle span::before, 
+.s-header__menu-toggle span::before,
 .s-header__menu-toggle span::after {
     content: '';
     width: 100%;
@@ -3245,7 +3245,7 @@ input::-moz-focus-inner {
     transition: all .1s;
 }
 
-.s-header__menu-toggle.is-clicked span::before, 
+.s-header__menu-toggle.is-clicked span::before,
 .s-header__menu-toggle.is-clicked span::after {
     background-color: white;
 }
@@ -3263,7 +3263,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## header contact button
  * ------------------------------------------------------------------- */
 .s-header__content .btn {
@@ -3300,27 +3300,27 @@ input::-moz-focus-inner {
     fill: white;
 }
 
-.s-header__content .btn:hover, 
+.s-header__content .btn:hover,
 .s-header__content .btn:focus {
     background-color: var(--color-gray-19) !important;
     border-color: var(--color-gray-19) !important;
     color: white;
 }
 
-.sticky .s-header__content .btn:hover, 
+.sticky .s-header__content .btn:hover,
 .sticky .s-header__content .btn:focus {
     background-color: white !important;
     border-color: white !important;
     color: black;
 }
 
-.sticky .s-header__content .btn:hover svg path, 
+.sticky .s-header__content .btn:hover svg path,
 .sticky .s-header__content .btn:focus svg path {
     fill: black;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * header
  * ------------------------------------------------------------------- */
@@ -3350,21 +3350,21 @@ input::-moz-focus-inner {
         top: var(--vspace-0_5);
         height: 8rem;
     }
-    .s-header.sticky .s-header__content .btn, 
+    .s-header.sticky .s-header__content .btn,
     .s-header .s-header__content .btn {
         --btn-height: calc(var(--vspace-btn) - 1.2rem) !important;
     }
-    .s-header.sticky .s-header__content .btn:hover, 
-    .s-header.sticky .s-header__content .btn:focus, 
-    .s-header .s-header__content .btn:hover, 
+    .s-header.sticky .s-header__content .btn:hover,
+    .s-header.sticky .s-header__content .btn:focus,
+    .s-header .s-header__content .btn:hover,
     .s-header .s-header__content .btn:focus {
         background-color: white !important;
         border-color: white !important;
         color: black;
     }
-    .s-header.sticky .s-header__content .btn:hover svg path, 
-    .s-header.sticky .s-header__content .btn:focus svg path, 
-    .s-header .s-header__content .btn:hover svg path, 
+    .s-header.sticky .s-header__content .btn:hover svg path,
+    .s-header.sticky .s-header__content .btn:focus svg path,
+    .s-header .s-header__content .btn:hover svg path,
     .s-header .s-header__content .btn:focus svg path {
         fill: black;
     }
@@ -3522,7 +3522,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## hero content
  * ------------------------------------------------------------------- */
 .s-hero__content {
@@ -3599,7 +3599,7 @@ input::-moz-focus-inner {
     margin-right: 1.2rem;
 }
 
-.s-hero__content-social a:hover, 
+.s-hero__content-social a:hover,
 .s-hero__content-social a:focus {
     color: var(--color-1-light);
 }
@@ -3609,7 +3609,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## hero video
  * ------------------------------------------------------------------- */
 .s-hero__video {
@@ -3644,7 +3644,7 @@ input::-moz-focus-inner {
     position: relative;
 }
 
-.s-hero__video-link:hover, 
+.s-hero__video-link:hover,
 .s-hero__video-link:focus {
     background-color: var(--color-gray-19);
     outline: 0;
@@ -3655,7 +3655,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## hero scroll
  * ------------------------------------------------------------------- */
 .s-hero__scroll {
@@ -3683,7 +3683,7 @@ input::-moz-focus-inner {
     position: relative;
 }
 
-.s-hero__scroll-link:hover, 
+.s-hero__scroll-link:hover,
 .s-hero__scroll-link:focus {
     color: white;
 }
@@ -3712,7 +3712,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## animations
  * ------------------------------------------------------------------- */
 
@@ -3806,7 +3806,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * content
  * ------------------------------------------------------------------- */
@@ -4049,7 +4049,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## about photo
  * ------------------------------------------------------------------- */
 .s-about__photo-block {
@@ -4069,7 +4069,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## about process
  * ------------------------------------------------------------------- */
 .s-about__process {
@@ -4105,7 +4105,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * about
  * ------------------------------------------------------------------- */
@@ -4216,7 +4216,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * services
  * ------------------------------------------------------------------- */
@@ -4245,7 +4245,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## portfolio list
  * ------------------------------------------------------------------- */
 .s-portfolio__list {
@@ -4379,8 +4379,8 @@ html.no-csstransitions .s-hero__content {
     left: -3rem;
 }
 
-.folio-item__project-link:hover, 
-.folio-item__project-link:focus, 
+.folio-item__project-link:hover,
+.folio-item__project-link:focus,
 .folio-item__project-link:active {
     background-color: white;
     border: 1px solid white;
@@ -4416,7 +4416,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * portfolio
  * ------------------------------------------------------------------- */
@@ -4479,7 +4479,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## clients slider
  * ------------------------------------------------------------------- */
 .clients-outer {
@@ -4513,7 +4513,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## testimonials
  * ------------------------------------------------------------------- */
 .testimonials {
@@ -4546,7 +4546,7 @@ html.no-csstransitions .s-hero__content {
     opacity: .15;
 }
 
-.testimonials .slick-arrow:hover, 
+.testimonials .slick-arrow:hover,
 .testimonials .slick-arrow:focus {
     opacity: 1;
 }
@@ -4617,7 +4617,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * clients
  * ------------------------------------------------------------------- */
@@ -4722,13 +4722,13 @@ html.no-csstransitions .s-hero__content {
     border-bottom: 2px solid transparent;
 }
 
-.s-contact__email a:hover, 
+.s-contact__email a:hover,
 .s-contact__email a:focus {
     border-bottom: 2px solid white;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
@@ -4772,7 +4772,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## footer block
  * ------------------------------------------------------------------- */
 .s-footer__block {
@@ -4817,7 +4817,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## footer list
  * ------------------------------------------------------------------- */
 .s-footer__list {
@@ -4830,7 +4830,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## copyright
  * ------------------------------------------------------------------- */
 .ss-copyright {
@@ -4866,7 +4866,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## go top
  * ------------------------------------------------------------------- */
 .ss-go-top {
@@ -4905,7 +4905,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * footer
  * ------------------------------------------------------------------- */
