@@ -1,1238 +1,1509 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
-
-    <!--- basic page needs
+    <head>
+        <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
-    <title>Typerite</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta charset="utf-8" />
+        <title>Typerite</title>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
 
-    <!-- mobile specific metas
+        <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS
+        <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/vendor.css" />
+        <link rel="stylesheet" href="css/main.css" />
 
-    <!-- script
+        <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
+        <script src="js/modernizr.js"></script>
 
-    <!-- favicons
+        <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+        <link rel="manifest" href="site.webmanifest" />
+    </head>
 
-</head>
-
-<body>
-
-    <!-- preloader
+    <body>
+        <!-- preloader
     ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
+        <div id="preloader">
+            <div id="loader" class="dots-fade">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
-    </div>
 
-    <div id="top" class="s-wrap site-wrapper">
-
-        <!-- site header
+        <div id="top" class="s-wrap site-wrapper">
+            <!-- site header
         ================================================== -->
-        <header class="s-header">
-
-            <div class="header__top">
-                <div class="header__logo">
-                    <a class="site-logo" href="index.html">
-                        <img src="images/logo.svg" alt="Homepage">
-                    </a>
+            <header class="s-header">
+                <div class="header__top">
+                    <div class="header__logo">
+                        <a class="site-logo" href="index.html">
+                            <img src="images/logo.svg" alt="Homepage" />
+                        </a>
+                    </div>
                 </div>
-            </div> <!-- end header__top -->
+                <!-- end header__top -->
 
-            <nav class="header__nav-wrap">
+                <nav class="header__nav-wrap">
+                    <ul class="header__nav">
+                        <li class="current"><a href="index.html" title="">Home</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">Categories</a>
+                            <ul class="sub-menu">
+                                <li><a href="category.html">Lifestyle</a></li>
+                                <li><a href="category.html">Health</a></li>
+                                <li><a href="category.html">Family</a></li>
+                                <li><a href="category.html">Management</a></li>
+                                <li><a href="category.html">Travel</a></li>
+                                <li><a href="category.html">Work</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#0" title="">Blog Posts</a>
+                            <ul class="sub-menu">
+                                <li><a href="single-video.html">Video Post</a></li>
+                                <li><a href="single-audio.html">Audio Post</a></li>
+                                <li><a href="single-gallery.html">Gallery Post</a></li>
+                                <li><a href="single-standard.html">Standard Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="styles.html" title="">Styles</a></li>
+                        <li><a href="page-about.html" title="">About</a></li>
+                        <li><a href="page-contact.html" title="">Contact</a></li>
+                    </ul>
+                    <!-- end header__nav -->
 
-                <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Home</a></li>
-                    <li class="has-children">
-                        <a href="#0" title="">Categories</a>
-                        <ul class="sub-menu">
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Management</a></li>
-                        <li><a href="category.html">Travel</a></li>
-                        <li><a href="category.html">Work</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-children">
-                        <a href="#0" title="">Blog Posts</a>
-                        <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-gallery.html">Gallery Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="styles.html" title="">Styles</a></li>
-                    <li><a href="page-about.html" title="">About</a></li>
-                    <li><a href="page-contact.html" title="">Contact</a></li>
-                </ul> <!-- end header__nav -->
+                    <ul class="header__social">
+                        <li class="ss-facebook">
+                            <a href="https://facebook.com/">
+                                <span class="screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="ss-twitter">
+                            <a href="#0">
+                                <span class="screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="ss-dribbble">
+                            <a href="#0">
+                                <span class="screen-reader-text">Dribbble</span>
+                            </a>
+                        </li>
+                        <li class="ss-pinterest">
+                            <a href="#0">
+                                <span class="screen-reader-text">Behance</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- end header__nav-wrap -->
 
-                <ul class="header__social">
-                    <li class="ss-facebook">
-                        <a href="https://facebook.com/">
-                            <span class="screen-reader-text">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="ss-twitter">
-                        <a href="#0">
-                            <span class="screen-reader-text">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="ss-dribbble">
-                        <a href="#0">
-                            <span class="screen-reader-text">Dribbble</span>
-                        </a>
-                    </li>
-                    <li class="ss-pinterest">
-                        <a href="#0">
-                            <span class="screen-reader-text">Behance</span>
-                        </a>
-                    </li>
-                </ul>
+                <!-- menu toggle -->
+                <a href="#0" class="header__menu-toggle">
+                    <span>Menu</span>
+                </a>
+            </header>
+            <!-- end s-header -->
 
-            </nav> <!-- end header__nav-wrap -->
-
-            <!-- menu toggle -->
-            <a href="#0" class="header__menu-toggle">
-                <span>Menu</span>
-            </a>
-
-        </header> <!-- end s-header -->
-
-
-        <!-- search
+            <!-- search
         ================================================== -->
-        <div class="s-search">
+            <div class="s-search">
+                <div class="search-block">
+                    <form role="search" method="get" class="search-form" action="#">
+                        <label>
+                            <span class="hide-content">Search for:</span>
+                            <input
+                                type="search"
+                                class="search-field"
+                                placeholder="Type Keywords"
+                                value=""
+                                name="s"
+                                title="Search for:"
+                                autocomplete="off"
+                            />
+                        </label>
+                        <input type="submit" class="search-submit" value="Search" />
+                    </form>
 
-            <div class="search-block">
-    
-                <form role="search" method="get" class="search-form" action="#">
-                    <label>
-                        <span class="hide-content">Search for:</span>
-                        <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
-                    </label>
-                    <input type="submit" class="search-submit" value="Search">
-                </form>
-    
-                <a href="#0" title="Close Search" class="search-close">Close</a>
-    
-            </div>  <!-- end search-block -->
+                    <a href="#0" title="Close Search" class="search-close">Close</a>
+                </div>
+                <!-- end search-block -->
 
-            <!-- search modal trigger -->
-            <a href="#0" class="search-trigger">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform: -ms-filter "><path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"></path></svg>
-                <span>Search</span>
-            </a>
-            <span class="search-line"></span>
+                <!-- search modal trigger -->
+                <a href="#0" class="search-trigger">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        style="fill: rgba(0, 0, 0, 1); transform: -ms-filter"
+                    >
+                        <path
+                            d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"
+                        ></path>
+                    </svg>
+                    <span>Search</span>
+                </a>
+                <span class="search-line"></span>
+            </div>
+            <!-- end s-search -->
 
-        </div> <!-- end s-search -->
-
-
-        <!-- site content
+            <!-- site content
         ================================================== -->
-        <div class="s-content">
-            
-            <div class="masonry-wrap">
+            <div class="s-content">
+                <div class="masonry-wrap">
+                    <div class="masonry">
+                        <div class="grid-sizer"></div>
 
-                <div class="masonry">
-    
-                    <div class="grid-sizer"></div>
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-                            
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/yash.jpg" 
-                                        srcset="images/members/yash.jpg 1x, images/members/yash.jpg 2x" alt="Yash Rajesh Umale" style="width: 100%";>
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-    
-                                <h2 class="entry__title"><a href="single-standard.html">Yash Rajesh Umale</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Secretary of FACE</a> 
-                                        <!-- <a href="category.html">Photography</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 29, 2019</a> --> 
-                                    </span>
-                                </div>
-                                
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    An Electronics and Communications Engineering undergrad who is interested in Android App Development, Data Analytics and Machine Learning and loves meddling with Python and Java.
-                                </p>
-                            </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-quote animate-this">
-                            
-                        <div class="entry__thumb">
-                            <blockquote>
-                                <p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
-    
-                                <cite>Dieter Rams</cite>
-                            </blockquote>
-                        </div>   
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-                            
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/madhuri.jpg" 
-                                        srcset="images/members/madhuri.jpg 1x, images/members/madhuri.jpg 2x" alt="Ch. Sri Sai Madhuri" style="width: 100%";>
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Ch. Sri Sai Madhuri</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Joint Secretary of FACE</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <!-- <a href="single-standard.html">Apr 28, 2019</a> -->
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Pursuing her B Tech in CSE. Is an enthusiastic person always open for learning and extremely drawn towards UI/UX Design and Software dev. Always up for healthy and informative discussions over a cup of coffee.
-
-
-                                </p>
-                            </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-                    
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/ritwik.jpg" 
-                                        srcset="images/members/ritwik.jpg 1x, images/members/ritwik.jpg 2x" alt="Ritwik Lal" style="width: 100%";>
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Ritwik Lal</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                       <!-- <a href="category.html">Lifestyle</a> --> 
-                                        <a href="category.html">Joint Secretary of FACE</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                         <!-- <a href="single-standard.html">Apr 28, 2019</a> -->
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A 3rd year student highly interested in Data Science, Machine Learning and Deep learning. Content Writer & Team lead for FACE's medium page. Coffee, code and Math are the passwords to finding a him in a good mood.
-                                </p>
-                            </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
+                        <article class="masonry__brick entry format-standard animate-this">
                             <div class="entry__thumb">
                                 <a href="single-standard.html" class="entry__thumb-link">
-                                    <img src="images/members/aravind.jpg" 
-                                            srcset="images/members/aravind.jpg 1x, images/members/aravind.jpg 2x" alt="Aravind V. Nair" style="width: 100%";>
+                                    <img
+                                        src="images/members/yash.jpg"
+                                        srcset="images/members/yash.jpg 1x, images/members/yash.jpg 2x"
+                                        alt="Yash Rajesh Umale"
+                                        style="width: 100%"
+                                        ;
+                                    />
                                 </a>
                             </div>
-            
+
                             <div class="entry__text">
                                 <div class="entry__header">
-                                    
-                                    <h2 class="entry__title"><a href="single-standard.html">Aravind V. Nair</a></h2>
-                                    
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Yash Rajesh Umale</a>
+                                    </h2>
                                     <div class="entry__meta">
                                         <span class="entry__meta-cat">
-                                            <a href="category.html">Google DSC ASEB Lead, Lead Web Developer of FACE & Web Development SIG Lead of ACM & ACM-W</a>
-                                           <!-- <a href="category.html">Work</a> --> 
+                                            <a href="category.html">Secretary of FACE</a>
+                                            <!-- <a href="category.html">Photography</a> -->
                                         </span>
                                         <span class="entry__meta-date">
-                                            <!-- <a href="single-standard.html">Apr 26, 2019</a> --> 
+                                            <!-- <a href="single-standard.html">Apr 29, 2019</a> -->
                                         </span>
                                     </div>
                                 </div>
                                 <div class="entry__excerpt">
                                     <p>
-                                        A final year pursuing his B.Tech. in Computer Science and Engineering, Aravind V. Nair has an enormous passion for web development and cybersecurity. He also has a great zeal in server management, ethical hacking, app development and various other fields.
+                                        An Electronics and Communications Engineering undergrad who is
+                                        interested in Android App Development, Data Analytics and Machine
+                                        Learning and loves meddling with Python and Java.
                                     </p>
                                 </div>
                             </div>
-            
-                        </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/akkina.jpg" 
-                                        srcset="images/members/akkina.jpg 1x, images/members/akkina.jpg 2x" alt="Akkina Sairamsrikar" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                
-                                <h2 class="entry__title"><a href="single-standard.html">Akkina Sairamsrikar</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Chairperson, CSI Student Chapter ASE-B</a>
-                                        <!-- <a href="category.html">Relationship</a> --> 
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <!--  <a href="single-standard.html">Apr 26, 2019</a> --> 
-                                    </span>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-quote animate-this">
+                            <div class="entry__thumb">
+                                <blockquote>
+                                    <p>
+                                        Good design is making something intelligible and memorable. Great
+                                        design is making something memorable and meaningful.
+                                    </p>
+
+                                    <cite>Dieter Rams</cite>
+                                </blockquote>
+                            </div>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/madhuri.jpg"
+                                        srcset="images/members/madhuri.jpg 1x, images/members/madhuri.jpg 2x"
+                                        alt="Ch. Sri Sai Madhuri"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Ch. Sri Sai Madhuri</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Joint Secretary of FACE</a>
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 28, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        Pursuing her B Tech in CSE. Is an enthusiastic person always open for
+                                        learning and extremely drawn towards UI/UX Design and Software dev.
+                                        Always up for healthy and informative discussions over a cup of
+                                        coffee.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A Btech student with hands on experience in various programming languages, state of art techniques and social media marketing skills - code with tensors.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/ritwik.jpg"
+                                        srcset="images/members/ritwik.jpg 1x, images/members/ritwik.jpg 2x"
+                                        alt="Ritwik Lal"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-audio animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-audio.html" class="entry__thumb-link">
-                                <img src="images/members/tarun.jpg" 
-                                     srcset="images/members/tarun.jpg 1x, images/members/tarun.jpg 2x" alt="Akkineni Tarun Sai" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-audio.html">Akkineni Tarun Sai</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Vice Chairperson, CSI Student Chapter ASE-B</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 24, 2019</a> --> 
-                                    </span>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Ritwik Lal</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <!-- <a href="category.html">Lifestyle</a> -->
+                                            <a href="category.html">Joint Secretary of FACE</a>
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 28, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A 3rd year student highly interested in Data Science, Machine Learning
+                                        and Deep learning. Content Writer & Team lead for FACE's medium page.
+                                        Coffee, code and Math are the passwords to finding a him in a good
+                                        mood.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Second year student pursuing Bachelors degree in Electronics and Computer Engineering with a never ending hunger for knowledge. Currently messing around with Microprocessor and Micro controller architecture and HTML& CSS.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/aravind.jpg"
+                                        srcset="images/members/aravind.jpg 1x, images/members/aravind.jpg 2x"
+                                        alt="Aravind V. Nair"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/thogarucheeti.jpg" 
-                                        srcset="images/members/thogarucheeti.jpg 1x, images/members/thogarucheeti.jpg 2x" alt="Thogarucheeti Krishna Saketh" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Thogarucheeti Krishna Saketh</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Chairperson, ACM Student Chapter ASE-B</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <!--  <a href="single-standard.html">Apr 24, 2019</a> -->
-                                    </span>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Aravind V. Nair</a>
+                                    </h2>
+
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Google DSC ASEB Lead, Lead Web Developer of FACE & Web
+                                                Development SIG Lead of ACM & ACM-W</a
+                                            >
+                                            <!-- <a href="category.html">Work</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 26, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A final year pursuing his B.Tech. in Computer Science and Engineering,
+                                        Aravind V. Nair has an enormous passion for web development and
+                                        cybersecurity. He also has a great zeal in server management, ethical
+                                        hacking, app development and various other fields.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A third year student who is interested in AI, Web Development and loves solving problems.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/akkina.jpg"
+                                        srcset="images/members/akkina.jpg 1x, images/members/akkina.jpg 2x"
+                                        alt="Akkina Sairamsrikar"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-video animate-this">
-                            
-                        <div class="entry__thumb video-image">
-                            <a href="https://player.vimeo.com/video/117310401?color=339989&title=0&byline=0&portrait=0" data-lity class="entry__thumb-link">
-                                <img src="images/members/aditya.jpg" 
-                                     srcset="images/members/aditya.jpg 1x, images/members/aditya.jpg 2x" alt="Aditya D" style="width: 100%";>
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-video.html">Aditya D</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Vice Chairperson, ACM Student Chapter ASE-B</a>
-                                        <!-- <a href="category.html">Health</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <!-- <a href="single-standard.html">Apr 24, 2019</a> -->
-                                    </span>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Akkina Sairamsrikar</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Chairperson, CSI Student Chapter ASE-B</a>
+                                            <!-- <a href="category.html">Relationship</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!--  <a href="single-standard.html">Apr 26, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A Btech student with hands on experience in various programming
+                                        languages, state of art techniques and social media marketing skills -
+                                        code with tensors.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Some domains I'm good at are Python and Data Science. Also I'd reached the final stage of Smart India Hackathon.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-audio animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-audio.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/tarun.jpg"
+                                        srcset="images/members/tarun.jpg 1x, images/members/tarun.jpg 2x"
+                                        alt="Akkineni Tarun Sai"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/hrudeep.jpg" 
-                                        srcset="images/members/hrudeep.jpg 1x, images/members/hrudeep.jpg 2x" alt="Yerradoddi Hrudeep Reddy" style="width: 100%";> 
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Yerradoddi Hrudeep Reddy</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Vice Chairperson, ACM Student Chapter ASE-B</a>
-                                       <!--  <a href="category.html">Photography</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <!-- <a href="single-standard.html">Apr 24, 2019</a> -->
-                                    </span>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-audio.html">Akkineni Tarun Sai</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Vice Chairperson, CSI Student Chapter ASE-B</a
+                                            >
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 24, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        Second year student pursuing Bachelors degree in Electronics and
+                                        Computer Engineering with a never ending hunger for knowledge.
+                                        Currently messing around with Microprocessor and Micro controller
+                                        architecture and HTML& CSS.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A second year persuing his B.Tech in CSE. Has a great passion for Product Development. A tech Enthusiast, who loves to use technology to solve problems("Modern problems requires modern solutions")
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/thogarucheeti.jpg"
+                                        srcset="
+                                            images/members/thogarucheeti.jpg 1x,
+                                            images/members/thogarucheeti.jpg 2x
+                                        "
+                                        alt="Thogarucheeti Krishna Saketh"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                   
-                    <!-- -->
-                    <article class="masonry__brick entry format-gallery animate-this">
-                            
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/manasa_s.jpg" 
-                                        srcset="images/members/manasa_s.jpg 1x, images/members/manasa_s.jpg 2x" alt="Manasa Sanjeev" style="width: 100%";>
-                            </a>
-                        </div>
-        
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-gallery.html">Manasa Sanjeev</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Chairperson, ACM-W Student Chapter ASE-B</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
-                                    </span>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Thogarucheeti Krishna Saketh</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Chairperson, ACM Student Chapter ASE-B</a>
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!--  <a href="single-standard.html">Apr 24, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A third year student who is interested in AI, Web Development and
+                                        loves solving problems.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A 3rd year Computer Science Engineering student who is interested in Programming, UI/UX designing and a certified AWS Cloud Practitioner. She likes exploring new things and taking up responsibilities. Through the medium of her club, she actively encourages young girls to take part in STEM related activities.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-video animate-this">
+                            <div class="entry__thumb video-image">
+                                <a
+                                    href="https://player.vimeo.com/video/117310401?color=339989&title=0&byline=0&portrait=0"
+                                    data-lity
+                                    class="entry__thumb-link"
+                                >
+                                    <img
+                                        src="images/members/aditya.jpg"
+                                        srcset="images/members/aditya.jpg 1x, images/members/aditya.jpg 2x"
+                                        alt="Aditya D"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-        
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/harshitha.jpg" 
-                                        srcset="images/members/harshitha.jpg 1x, images/members/harshitha.jpg 2x" alt="Harshitha Nagarajan" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Harshitha Nagarajan</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Vice Chairperson, ACM-W Student Chapter ASE-B</a>
-                                    </span>
-                                    <span class="entry__meta-date">
-                                        <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
-                                    </span>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title"><a href="single-video.html">Aditya D</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Vice Chairperson, ACM Student Chapter ASE-B</a
+                                            >
+                                            <!-- <a href="category.html">Health</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 24, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        Some domains I'm good at are Python and Data Science. Also I'd reached
+                                        the final stage of Smart India Hackathon.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A sophomore pursuing her B.Tech in CSE-AI. Practical, logical, creative and real. A strategic-thinker and loves solving real world problems with like minded individuals. She is passionate about Deep Learning and Computer Vision, and her fields of interests include Machine Learning, Natural Language Processing, and Data Analytics.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/hrudeep.jpg"
+                                        srcset="images/members/hrudeep.jpg 1x, images/members/hrudeep.jpg 2x"
+                                        alt="Yerradoddi Hrudeep Reddy"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
-    
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/sneha.jpg" 
-                                        srcset="images/members/sneha.jpg 1x, images/members/sneha.jpg 2x" alt="Sneha.B" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Sneha.B</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Vice Chairperson, ACM-W Student Chapter ASE-B</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Yerradoddi Hrudeep Reddy</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Vice Chairperson, ACM Student Chapter ASE-B</a
+                                            >
+                                            <!--  <a href="category.html">Photography</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 24, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A second year persuing his B.Tech in CSE. Has a great passion for
+                                        Product Development. A tech Enthusiast, who loves to use technology to
+                                        solve problems("Modern problems requires modern solutions")
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A second year CSE-AI undergraduate whose core interest lies around Data Science and Analytics. Loves expressing herself through Dance and Drama
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <!-- -->
+                        <article class="masonry__brick entry format-gallery animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/manasa_s.jpg"
+                                        srcset="
+                                            images/members/manasa_s.jpg 1x,
+                                            images/members/manasa_s.jpg 2x
+                                        "
+                                        alt="Manasa Sanjeev"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/lokesh.jpg" 
-                                        srcset="images/members/lokesh.jpg 1x, images/members/lokesh.jpg 2x" alt="Lokesh Anumolu" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Lokesh Anumolu</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Secretary, Codechef Student Chapter ASE-B</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-gallery.html">Manasa Sanjeev</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Chairperson, ACM-W Student Chapter ASE-B</a
+                                            >
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A 3rd year Computer Science Engineering student who is interested in
+                                        Programming, UI/UX designing and a certified AWS Cloud Practitioner.
+                                        She likes exploring new things and taking up responsibilities. Through
+                                        the medium of her club, she actively encourages young girls to take
+                                        part in STEM related activities.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    An Computer Science undergraduate student enthusiastic about DeepLearning and Competitive Programming.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/harshitha.jpg"
+                                        srcset="
+                                            images/members/harshitha.jpg 1x,
+                                            images/members/harshitha.jpg 2x
+                                        "
+                                        alt="Harshitha Nagarajan"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/shirisha.jpg" 
-                                        srcset="images/members/shirisha.jpg 1x, images/members/shirisha.jpg 2x" alt="Lavanya Ratna Sirisha Munduri" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Lavanya Ratna Sirisha Munduri</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Joint Secretary, Codechef Student Chapter ASE-B</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Harshitha Nagarajan</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Vice Chairperson, ACM-W Student Chapter ASE-B</a
+                                            >
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A sophomore pursuing her B.Tech in CSE-AI. Practical, logical,
+                                        creative and real. A strategic-thinker and loves solving real world
+                                        problems with like minded individuals. She is passionate about Deep
+                                        Learning and Computer Vision, and her fields of interests include
+                                        Machine Learning, Natural Language Processing, and Data Analytics.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A second year CSE undergrad student interested in minimalistic UI/UX research and information architecture, Competitive Programming. Art bug.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/sneha.jpg"
+                                        srcset="images/members/sneha.jpg 1x, images/members/sneha.jpg 2x"
+                                        alt="Sneha.B"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/Praanesh.jpg" 
-                                        srcset="images/members/Praanesh.jpg 1x, images/members/Praanesh.jpg 2x" alt="Kanala Srinivas Praanesh" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Kanala Srinivas Praanesh</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Forge Secretary</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title"><a href="single-standard.html">Sneha.B</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Vice Chairperson, ACM-W Student Chapter ASE-B</a
+                                            >
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A second year CSE-AI undergraduate whose core interest lies around
+                                        Data Science and Analytics. Loves expressing herself through Dance and
+                                        Drama
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Efficient
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/lokesh.jpg"
+                                        srcset="images/members/lokesh.jpg 1x, images/members/lokesh.jpg 2x"
+                                        alt="Lokesh Anumolu"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/madhav.jpg" 
-                                        srcset="images/members/madhav.jpg 1x, images/members/madhav.jpg 2x" alt="N Madhav Sai" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">N Madhav Sai</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Forge Co-Secretary</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Lokesh Anumolu</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Secretary, Codechef Student Chapter ASE-B</a
+                                            >
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        An Computer Science undergraduate student enthusiastic about
+                                        DeepLearning and Competitive Programming.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A second year pursuing his B TECH in EEE. Passionate about levelling , 3D modelling and game development. A gamer who enjoys challenges and is fascinated on building games . An enthusiast while acquiring skills on game development softwares.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/shirisha.jpg"
+                                        srcset="
+                                            images/members/shirisha.jpg 1x,
+                                            images/members/shirisha.jpg 2x
+                                        "
+                                        alt="Lavanya Ratna Sirisha Munduri"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/Rohit.jpg" 
-                                        srcset="images/members/Rohit.jpg 1x, images/members/Rohit.jpg 2x" alt="Rohit R" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Rohit R</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Lavanya Ratna Sirisha Munduri</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html"
+                                                >Joint Secretary, Codechef Student Chapter ASE-B</a
+                                            >
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A second year CSE undergrad student interested in minimalistic UI/UX
+                                        research and information architecture, Competitive Programming. Art
+                                        bug.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A second year pursuing B.Tech in CSE. He loves experimenting different areas in his field. He is A data science enthusiast. He works to grow beyond expectations.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/Praanesh.jpg"
+                                        srcset="
+                                            images/members/Praanesh.jpg 1x,
+                                            images/members/Praanesh.jpg 2x
+                                        "
+                                        alt="Kanala Srinivas Praanesh"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/Gandheesh.jpg" 
-                                        srcset="images/members/Gandheesh.jpg 1x, images/members/Gandheesh.jpg 2x" alt="S.A. Gandheesh" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">S.A. Gandheesh</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Kanala Srinivas Praanesh</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Forge Secretary</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>Efficient</p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A sophomore computer science student and funny(not really) guy who is a real gamer and interested in web development and app development.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/madhav.jpg"
+                                        srcset="images/members/madhav.jpg 1x, images/members/madhav.jpg 2x"
+                                        alt="N Madhav Sai"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/JaiSurya.jpg" 
-                                        srcset="images/members/JaiSurya.jpg 1x, images/members/JaiSurya.jpg 2x" alt="Kode Jai Surya" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Kode Jai Surya</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">N Madhav Sai</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Forge Co-Secretary</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A second year pursuing his B TECH in EEE. Passionate about levelling ,
+                                        3D modelling and game development. A gamer who enjoys challenges and
+                                        is fascinated on building games . An enthusiast while acquiring skills
+                                        on game development softwares.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A second year CSE-AI student, aspiring to be a Data Scientist. I want to explore as many things as possible in the fields of AI, ML, Robotics and Psychology.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/Rohit.jpg"
+                                        srcset="images/members/Rohit.jpg 1x, images/members/Rohit.jpg 2x"
+                                        alt="Rohit R"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/kishan.jpg" 
-                                        srcset="images/members/kishan.jpg 1x, images/members/kishan.jpg 2x" alt="Kishan Maniyar" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Kishan Maniyar</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title"><a href="single-standard.html">Rohit R</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A second year pursuing B.Tech in CSE. He loves experimenting different
+                                        areas in his field. He is A data science enthusiast. He works to grow
+                                        beyond expectations.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A second year pursuing his B.Tech in CSE. Has a passion for Data Science and competitive programming. An enthusiastic coder, he loves analysing any data of any type from any source
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/Gandheesh.jpg"
+                                        srcset="
+                                            images/members/Gandheesh.jpg 1x,
+                                            images/members/Gandheesh.jpg 2x
+                                        "
+                                        alt="S.A. Gandheesh"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/Sesha.jpg" 
-                                        srcset="images/members/Sesha.jpg 1x, images/members/Sesha.jpg 2x" alt="Seshaayini.K" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Seshaayini.K</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">S.A. Gandheesh</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A sophomore computer science student and funny(not really) guy who is
+                                        a real gamer and interested in web development and app development.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A sophomore who is open to the ocean of boundless knowledge. She is inclined towards problem solving, coding and enjoys app development.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/JaiSurya.jpg"
+                                        srcset="
+                                            images/members/JaiSurya.jpg 1x,
+                                            images/members/JaiSurya.jpg 2x
+                                        "
+                                        alt="Kode Jai Surya"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/manasa_ch.jpg" 
-                                        srcset="images/members/manasa_ch.jpg 1x, images/members/manasa_ch.jpg 2x" alt="Ch Manasa" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Ch Manasa</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Kode Jai Surya</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A second year CSE-AI student, aspiring to be a Data Scientist. I want
+                                        to explore as many things as possible in the fields of AI, ML,
+                                        Robotics and Psychology.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A data science enthusiast currently in her junior year. Loves anything that has got to do with numbers !
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
+                        </article>
+                        <!-- end article -->
 
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/Chathurya.jpg" 
-                                        srcset="images/members/Chathurya.jpg 1x, images/members/Chathurya.jpg 2x" alt="K V S Chathurya" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">K V S Chathurya</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/kishan.jpg"
+                                        srcset="images/members/kishan.jpg 1x, images/members/kishan.jpg 2x"
+                                        alt="Kishan Maniyar"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Kishan Maniyar</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A second year pursuing his B.Tech in CSE. Has a passion for Data
+                                        Science and competitive programming. An enthusiastic coder, he loves
+                                        analysing any data of any type from any source
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A young computer science Undergraduate with technical areas and expertise in Deep Learning, cloud , Data structures and algorithms
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
+                        </article>
+                        <!-- end article -->
 
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/dipshikha.jpg" 
-                                        srcset="images/members/dipshikha.jpg 1x, images/members/dipshikha.jpg 2x" alt="Dipshikha Biswas" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Dipshikha Biswas</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/Sesha.jpg"
+                                        srcset="images/members/Sesha.jpg 1x, images/members/Sesha.jpg 2x"
+                                        alt="Seshaayini.K"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Seshaayini.K</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A sophomore who is open to the ocean of boundless knowledge. She is
+                                        inclined towards problem solving, coding and enjoys app development.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Thinks in Data Science, reads in novels, feels in music and expresses in dance.
-                                </p>
-                            </div>
-                        </div>
-    
-                    </article> <!-- end article -->
+                        </article>
+                        <!-- end article -->
 
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/sukha.jpg" 
-                                        srcset="images/members/sukha.jpg 1x, images/members/sukha.jpg 2x" alt="K Sukha" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">K Sukha</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/manasa_ch.jpg"
+                                        srcset="
+                                            images/members/manasa_ch.jpg 1x,
+                                            images/members/manasa_ch.jpg 2x
+                                        "
+                                        alt="Ch Manasa"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title"><a href="single-standard.html">Ch Manasa</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A data science enthusiast currently in her junior year. Loves anything
+                                        that has got to do with numbers !
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A sophomore computer science student and a tech enthusiast, who is interested in Machine learning and the Math behind it. Loves to discover and learn new things and has a passion for problem-solving and logical reasoning.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/Chathurya.jpg"
+                                        srcset="
+                                            images/members/Chathurya.jpg 1x,
+                                            images/members/Chathurya.jpg 2x
+                                        "
+                                        alt="K V S Chathurya"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/vivek.jpg" 
-                                        srcset="images/members/vivek.jpg 1x, images/members/vivek.jpg 2x" alt="Vivek Radhakrishnan" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Vivek Radhakrishnan</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">K V S Chathurya</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A young computer science Undergraduate with technical areas and
+                                        expertise in Deep Learning, cloud , Data structures and algorithms
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    Introverted, Geeky, likes memes, not really social but not afraid/anxious to socialize. I do music and I draw stuff. No more comments.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/dipshikha.jpg"
+                                        srcset="
+                                            images/members/dipshikha.jpg 1x,
+                                            images/members/dipshikha.jpg 2x
+                                        "
+                                        alt="Dipshikha Biswas"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/pranav.jpg" 
-                                        srcset="images/members/pranav.jpg 1x, images/members/pranav.jpg 2x" alt="Putsa Rama Krishna Pranav" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Putsa Rama Krishna Pranav</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Dipshikha Biswas</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        Thinks in Data Science, reads in novels, feels in music and expresses
+                                        in dance.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A third year student pursuing B.Tech in Computer Science and Engineering, enthusiastic coder, passionate about Artificial Intelligence and loves to travel.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/sukha.jpg"
+                                        srcset="images/members/sukha.jpg 1x, images/members/sukha.jpg 2x"
+                                        alt="K Sukha"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/harsha.jpg" 
-                                        srcset="images/members/harsha.jpg 1x, images/members/harsha.jpg 2x" alt="Sri Harsha Varanasi" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Sri Harsha Varanasi</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title"><a href="single-standard.html">K Sukha</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A sophomore computer science student and a tech enthusiast, who is
+                                        interested in Machine learning and the Math behind it. Loves to
+                                        discover and learn new things and has a passion for problem-solving
+                                        and logical reasoning.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A foodie who loves to be pleasant by being in the present.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/vivek.jpg"
+                                        srcset="images/members/vivek.jpg 1x, images/members/vivek.jpg 2x"
+                                        alt="Vivek Radhakrishnan"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/Jeet.jpg" 
-                                        srcset="images/members/Jeet.jpg 1x, images/members/Jeet.jpg 2x" alt="Jeet Santosh Nimbhorkar" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Jeet Santosh Nimbhorkar</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Vivek Radhakrishnan</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        Introverted, Geeky, likes memes, not really social but not
+                                        afraid/anxious to socialize. I do music and I draw stuff. No more
+                                        comments.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    He is an energetic computer science undergraduate with technical areas of interest in data science, machine learning and python scripting.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/pranav.jpg"
+                                        srcset="images/members/pranav.jpg 1x, images/members/pranav.jpg 2x"
+                                        alt="Putsa Rama Krishna Pranav"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/aravind_k.jpg" 
-                                        srcset="images/members/aravind_k.jpg 1x, images/members/aravind_k.jpg 2x" alt="Kurapati Sreenivas Aravind" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Kurapati Sreenivas Aravind</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Putsa Rama Krishna Pranav</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A third year student pursuing B.Tech in Computer Science and
+                                        Engineering, enthusiastic coder, passionate about Artificial
+                                        Intelligence and loves to travel.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A third year Computer Science student who displays a keen interest in exploring the fields of data science and machine learning.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/harsha.jpg"
+                                        srcset="images/members/harsha.jpg 1x, images/members/harsha.jpg 2x"
+                                        alt="Sri Harsha Varanasi"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/sathian.jpg" 
-                                        srcset="images/members/sathian.jpg 1x, images/members/sathian.jpg 2x" alt="Sathian M" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Sathian M</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Sri Harsha Varanasi</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>A foodie who loves to be pleasant by being in the present.</p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A sophomore who is pursuing undergraduate in computer science who is interest in cybersecurity and currently exploring different fields.
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/Jeet.jpg"
+                                        srcset="images/members/Jeet.jpg 1x, images/members/Jeet.jpg 2x"
+                                        alt="Jeet Santosh Nimbhorkar"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->
 
-
-                    <article class="masonry__brick entry format-standard animate-this">
-    
-                        <div class="entry__thumb">
-                            <a href="single-standard.html" class="entry__thumb-link">
-                                <img src="images/members/suriya.jpg" 
-                                        srcset="images/members/suriya.jpg 1x, images/members/suriya.jpg 2x" alt="Suriya KS" style="width: 100%";>
-                            </a>
-                        </div>
-    
-                        <div class="entry__text">
-                            <div class="entry__header">
-                                <h2 class="entry__title"><a href="single-standard.html">Suriya KS</a></h2>
-                                <div class="entry__meta">
-                                    <span class="entry__meta-cat">
-                                        <a href="category.html">Executive Member</a>
-                                        <!-- <a href="category.html">Vacation</a> -->
-                                    </span>
-                                    <span class="entry__meta-date">
-                                       <!-- <a href="single-standard.html">Apr 23, 2019</a> --> 
-                                    </span>
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Jeet Santosh Nimbhorkar</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        He is an energetic computer science undergraduate with technical areas
+                                        of interest in data science, machine learning and python scripting.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="entry__excerpt">
-                                <p>
-                                    A sophomore pursuing computer Science Engineering, who aspires to dwell into the field of Web Development, App Development, Data Science and Machine Learning
-                                </p>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/aravind_k.jpg"
+                                        srcset="
+                                            images/members/aravind_k.jpg 1x,
+                                            images/members/aravind_k.jpg 2x
+                                        "
+                                        alt="Kurapati Sreenivas Aravind"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
                             </div>
-                        </div>
-    
-                    </article> <!-- end article -->    
-                </div> <!-- end masonry -->
 
-            </div> <!-- end masonry-wrap -->
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title">
+                                        <a href="single-standard.html">Kurapati Sreenivas Aravind</a>
+                                    </h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A third year Computer Science student who displays a keen interest in
+                                        exploring the fields of data science and machine learning.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- end article -->
 
-            <div class="row">
-                <div class="column large-full">
-                    <nav class="pgn">
-                        <ul>
-                            <li><a class="pgn__prev" href="#0">Prev</a></li>
-                            <li><a class="pgn__num" href="#0">1</a></li>
-                            <li><span class="pgn__num current">2</span></li>
-                            <li><a class="pgn__num" href="#0">3</a></li>
-                            <li><a class="pgn__num" href="#0">4</a></li>
-                            <li><a class="pgn__num" href="#0">5</a></li>
-                            <li><span class="pgn__num dots">…</span></li>
-                            <li><a class="pgn__num" href="#0">8</a></li>
-                            <li><a class="pgn__next" href="#0">Next</a></li>
-                        </ul>
-                    </nav>
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/sathian.jpg"
+                                        srcset="images/members/sathian.jpg 1x, images/members/sathian.jpg 2x"
+                                        alt="Sathian M"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title"><a href="single-standard.html">Sathian M</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A sophomore who is pursuing undergraduate in computer science who is
+                                        interest in cybersecurity and currently exploring different fields.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- end article -->
+
+                        <article class="masonry__brick entry format-standard animate-this">
+                            <div class="entry__thumb">
+                                <a href="single-standard.html" class="entry__thumb-link">
+                                    <img
+                                        src="images/members/suriya.jpg"
+                                        srcset="images/members/suriya.jpg 1x, images/members/suriya.jpg 2x"
+                                        alt="Suriya KS"
+                                        style="width: 100%"
+                                        ;
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="entry__text">
+                                <div class="entry__header">
+                                    <h2 class="entry__title"><a href="single-standard.html">Suriya KS</a></h2>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Executive Member</a>
+                                            <!-- <a href="category.html">Vacation</a> -->
+                                        </span>
+                                        <span class="entry__meta-date">
+                                            <!-- <a href="single-standard.html">Apr 23, 2019</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="entry__excerpt">
+                                    <p>
+                                        A sophomore pursuing computer Science Engineering, who aspires to
+                                        dwell into the field of Web Development, App Development, Data Science
+                                        and Machine Learning
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- end article -->
+                    </div>
+                    <!-- end masonry -->
                 </div>
-            </div>
+                <!-- end masonry-wrap -->
 
-        </div> <!-- end s-content -->
-
-
-        <!-- footer
-        ================================================== -->
-        <footer class="s-footer">
-            <div class="row">
-                <div class="column large-full footer__content">
-                    <div class="footer__copyright">
-                        <span>© Copyright Typerite 2021</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                <div class="row">
+                    <div class="column large-full">
+                        <nav class="pgn">
+                            <ul>
+                                <li><a class="pgn__prev" href="#0">Prev</a></li>
+                                <li><a class="pgn__num" href="#0">1</a></li>
+                                <li><span class="pgn__num current">2</span></li>
+                                <li><a class="pgn__num" href="#0">3</a></li>
+                                <li><a class="pgn__num" href="#0">4</a></li>
+                                <li><a class="pgn__num" href="#0">5</a></li>
+                                <li><span class="pgn__num dots">…</span></li>
+                                <li><a class="pgn__num" href="#0">8</a></li>
+                                <li><a class="pgn__next" href="#0">Next</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
+            <!-- end s-content -->
 
-            <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"></a>
-            </div>
-        </footer>
+            <!-- footer
+        ================================================== -->
+            <footer class="s-footer">
+                <div class="row">
+                    <div class="column large-full footer__content">
+                        <div class="footer__copyright">
+                            <span>© Copyright Typerite 2021</span>
+                            <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                        </div>
+                    </div>
+                </div>
 
-    </div> <!-- end s-wrap -->
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                </div>
+            </footer>
+        </div>
+        <!-- end s-wrap -->
 
-
-    <!-- Java Script
+        <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
