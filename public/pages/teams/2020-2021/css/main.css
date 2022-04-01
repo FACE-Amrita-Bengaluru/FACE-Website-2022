@@ -104,7 +104,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #da5260;
+    color: #065cc9;
 }
 
 a:hover,
@@ -1858,6 +1858,13 @@ input::-moz-focus-inner {
     display: none;
 }
 
+.masonry .entry__social-icons {
+    padding: 15px 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* -------------------------------------------------------------------
  *  ## post formats - masonry view
  * ------------------------------------------------------------------- */
@@ -2498,7 +2505,6 @@ input::-moz-focus-inner {
 .header__social .ss-instagram a::after {
     background-image: url(../images/icons/social/icon-instagram.svg);
 }
-
 .header__social .ss-linkedin a::after {
     background-image: url(../images/icons/social/icon-linkedin.svg);
 }

@@ -104,7 +104,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #da5260;
+    color: #065cc9;
 }
 
 a:hover,
@@ -1856,6 +1856,13 @@ input::-moz-focus-inner {
 
 .masonry .entry__meta-cat a:last-child::after {
     display: none;
+}
+
+.masonry .entry__social-icons {
+    padding: 15px 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* -------------------------------------------------------------------
