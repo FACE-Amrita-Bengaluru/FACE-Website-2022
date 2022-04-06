@@ -257,4 +257,28 @@ const renderQuotes = async () => {
     document.getElementById('quotes-content').innerHTML = content;
     document.getElementById('quotes-author').innerHTML = author;
 };
+
+const searchMembers = () => {
+    const search = document.querySelector('.search-form');
+    search.addEventListener('submit', event => {
+        event.preventDefault();
+        const searchValue = document.getElementById('search').value.toLowerCase();
+        const members = document.querySelectorAll('.member-name');
+
+        members.forEach(member => {
+            const memberCard = member.closest('.masonry__brick');
+            const name = member.innerText;
+            const designation = member.closest('.entry__text').querySelector('.member-designation').innerText;
+            const searchResult =
+                name.toLowerCase().includes(searchValue) || designation.toLowerCase().includes(searchValue);
+
+            if (searchResult) memberCard.style.display = 'block';
+            else memberCard.style.display = 'none';
+        });
+
+        search.reset();
+    });
+};
+
 renderQuotes();
+searchMembers();
